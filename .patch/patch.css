@@ -1,0 +1,22 @@
+a.navbar-brand,
+.navbar-nav li:has(#languageDropdown),
+.navbar-nav li:has(#dark-mode-toggle),
+.navbar-nav li:has(.go-pro-link),
+.navbar-nav li:has(a[data-bs-target="#settingsModal"]),
+#scale-wrap > div > div:has(#groupRecent),
+#footer {
+  display: none !important;
+}
+
+.features-container {
+  border: none !important;
+  margin-top: 0 !important;
+}
+
+.navbar {
+  margin-bottom: 0 !important;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
